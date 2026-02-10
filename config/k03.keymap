@@ -74,11 +74,11 @@
 
         game {
             bindings = <
-&trans  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4                    &trans  &trans  &trans  &trans  &trans  &tog 0
-&trans  &trans  &kp Q         &kp W         &kp E         &kp R                           &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp A         &kp S         &kp D         &kp F                           &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp Z         &kp X         &kp C         &kp V         &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                &trans        &trans        &trans        &mo 0         &trans    &trans  &trans  &trans  &trans  &trans
+&kp F5  &kp TILDE   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4                       &trans  &trans  &trans  &trans  &trans  &tog 0
+&kp F1  &kp ESC     &kp Q         &kp W         &kp E         &kp R                              &trans  &trans  &trans  &trans  &trans  &trans
+&kp F2  &kp TAB     &kp A         &kp S         &kp D         &kp F                              &trans  &trans  &trans  &trans  &trans  &trans
+&kp F9  &kp LSHIFT  &kp Z         &kp X         &kp C         &kp V         &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                    &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL     &mo 0         &kp SPACE    &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
